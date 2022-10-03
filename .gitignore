@@ -348,3 +348,4 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/Hytone.Timberborn.Plugins.WarehouseMax/package/WarehouseMax/plugins/Hytone.Timberborn.Plugins.WarehouseMax.dll
