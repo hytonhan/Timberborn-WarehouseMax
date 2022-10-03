@@ -4,6 +4,9 @@ using Timberborn.StockKeeping;
 
 namespace Hytone.Timberborn.Plugins.WarehouseMax.Patches
 {
+    /// <summary>
+    /// Patch the method that handles desired logic
+    /// </summary>
     [HarmonyPatch(typeof(ToggleableGoodDisallower), nameof(ToggleableGoodDisallower.AllowedAmount))]
     public static class ToggleableGoodDisallowerPatch
     {

@@ -3,6 +3,10 @@ using UnityEngine;
 
 namespace Hytone.Timberborn.Plugins.WarehouseMax
 {
+    /// <summary>
+    /// Custom mono that keeps track if a stockpile should
+    /// replace desired as max
+    /// </summary>
     public class WarehouseMaxComponent : MonoBehaviour, IPersistentEntity
     {
         private static readonly ComponentKey WarehouseMaxKey = new ComponentKey(nameof(WarehouseMaxComponent));

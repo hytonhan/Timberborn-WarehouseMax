@@ -4,6 +4,9 @@ using TimberApi.ModSystem;
 
 namespace Hytone.Timberborn.Plugins.WarehouseMax
 {
+    /// <summary>
+    /// Basically this is used to get patches to work
+    /// </summary>
     [HarmonyPatch]
     public class BetterWarehousesPlugin : IModEntrypoint
     {

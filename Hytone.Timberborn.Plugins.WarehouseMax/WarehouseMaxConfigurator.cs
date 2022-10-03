@@ -6,6 +6,9 @@ using Timberborn.Warehouses;
 
 namespace Hytone.Timberborn.Plugins.WarehouseMax
 {
+    /// <summary>
+    /// Responsible for decorating Stockpiles with custom monobehaviour
+    /// </summary>
     [Configurator(SceneEntrypoint.InGame)]
     public class WarehouseMaxConfigurator : IConfigurator
     {

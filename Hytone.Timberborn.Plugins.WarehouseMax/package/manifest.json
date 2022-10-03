@@ -1,0 +1,9 @@
+{
+  "name": "WarehouseMax",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/hytonhan/Timberborn-WarehouseMax",
+  "description": "Replace warehouse desired as max",
+  "dependencies": [
+    "Timberborn_Central-TimberAPI-0.5.1"
+  ]
+}

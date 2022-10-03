@@ -10,6 +10,10 @@ using UnityEngine;
 using UnityEngine.UIElements;
 namespace Hytone.Timberborn.Plugins.WarehouseMax.Patches
 {
+    /// <summary>
+    /// Patch the stockpilefragment to show our custom toggle that
+    /// replaces desired with max
+    /// </summary>
     [HarmonyPatch]
     public class StockpileInventoryFragmentPatch
     {
