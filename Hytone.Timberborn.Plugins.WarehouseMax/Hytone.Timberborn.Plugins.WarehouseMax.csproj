@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TimberAPI" Version="0.5.1" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy $(ProjectDir)\..\README.md $(ProjectDir)\package&#xD;&#xA;copy $(OutDir)$(AssemblyName).dll $(ProjectDir)\package\WarehouseMax\plugins" />
+  </Target>
+
+</Project>
