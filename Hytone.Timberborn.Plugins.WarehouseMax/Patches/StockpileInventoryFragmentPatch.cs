@@ -82,12 +82,12 @@ namespace Hytone.Timberborn.Plugins.WarehouseMax.Patches
 
             if (_warehouseMax.DesiredIsMax)
             {
-                desiredLabel.text = _loc.T("warehousemax.Max");
+                desiredLabel.text = _loc.T("warehousemax.Header.Max");
                 ((LocalizableLabel)footer.Children().ElementAt(1).Children().First()).text = _loc.T("warehousemax.Max");
             }
             else
             {
-                desiredLabel.text = _loc.T("Inventory.Desired");
+                desiredLabel.text = _loc.T("Inventory.Header.Desired");
                 ((LocalizableLabel)footer.Children().ElementAt(1).Children().First()).text = _loc.T("Inventory.Desired");
             }
 

@@ -1,0 +1,4 @@
+ID,Text,Comment
+warehousemax.DesiredIsMax,"Максимум вместо «Желательно»"
+warehousemax.Header.Max,"Максимум"
+warehousemax.Max,"Максимум:"

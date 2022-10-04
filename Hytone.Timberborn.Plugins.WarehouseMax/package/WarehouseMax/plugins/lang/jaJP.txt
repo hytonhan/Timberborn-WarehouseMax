@@ -1,0 +1,4 @@
+ID,Text,Comment
+warehousemax.DesiredIsMax,要望数を最大数に設定する,Set Desired as Max
+warehousemax.Header.Max,最大,Max
+warehousemax.Max,最大：,Max

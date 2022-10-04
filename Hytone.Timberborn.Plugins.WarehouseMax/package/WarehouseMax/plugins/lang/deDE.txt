@@ -1,0 +1,4 @@
+ID,Text,Comment
+warehousemax.DesiredIsMax,Ändere Erwünscht zu Maximal
+warehousemax.Header.Max,Maximal
+warehousemax.Max,Maximal:
