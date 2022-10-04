@@ -16,5 +16,8 @@ than you.
 
 # Changelog
 
+## v1.0.1 - 4.10.2022
+- Added localization for japanese, german and russian (Thanks sukunabikona, juf0816 and GinFuyou!)
+
 ## v1.0.0 - 3.10.2022
 - Initial release
